@@ -3,13 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Commandes nostores</title>
-    <link rel="stylesheet" href="static/style.css">
-    <link rel="script" href="static/script.js">
-    <link rel="icon" src="photo/LOGO_NOSTORES_WEB.png">
+    <title>Mon Site Web</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+
+        .section p {
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+
+        .card h3 {
+            color: #764ba2;
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 1rem;
+            transition: background 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background: #764ba2;
+        }
+    </style>
 </head>
 <body>
-    <img src="./photo/logo.png" alt="image de test">
-    <p>test</p>
+    <header>
+        <h1>Bienvenue sur Mon Site</h1>
+        <p>Un site simple et élégant</p>
+    </header>
+
+    <main>
+        <section class="section">
+            <h2>À propos</h2>
+            <p>Bienvenue ! Ce site a été créé pour vous présenter mes services et mon travail. N'hésitez pas à explorer les différentes sections.</p>
+            <a href="#contact" class="cta-button">Me contacter</a>
+        </section>
+
+        <section class="section">
+            <h2>Mes Services</h2>
+            <div class="cards">
+                <div class="card">
+                    <h3>Service 1</h3>
+                    <p>Description du premier service proposé avec expertise et professionnalisme.</p>
+                </div>
+                <div class="card">
+                    <h3>Service 2</h3>
+                    <p>Description du deuxième service de qualité adapté à vos besoins.</p>
+                </div>
+                <div class="card">
+                    <h3>Service 3</h3>
+                    <p>Description du troisième service personnalisé pour votre satisfaction.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact">
+            <h2>Contact</h2>
+            <p>Vous avez des questions ? N'hésitez pas à me contacter !</p>
+            <p><strong>Email :</strong> contact@monsite.fr</p>
+            <p><strong>Téléphone :</strong> 01 23 45 67 89</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mon Site Web. Tous droits réservés.</p>
+    </footer>
 </body>
 </html>
