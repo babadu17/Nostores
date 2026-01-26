@@ -2,6 +2,7 @@ from flask import Flask, render_template_string
 import os
 
 app = Flask(__name__)
+app.secret_key = "une_cle_secrete"
 
 @app.route('/')
 def index():
