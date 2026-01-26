@@ -4,11 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Commandes nostores</title>
-    <link rel="stylesheet" href="static/style.css">
-    <link rel="script" href="static/script.js">
-    <link rel="icon" src="photo/LOGO_NOSTORES_WEB.png">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='photo/logo.png') }}">
 </head>
 <body>
-    <img src="./photo/logo.png">
+    <img src="{{ url_for('static', filename='photo/logo_blanc.png') }}" class="logo">
+    <button class="boutton">NOS PERGOLAS</button>
+    <button class="boutton">NOS STORES BANNE</button>
+    <button class="boutton">NOS STORES VERTICAUX</button>
+    <button class="boutton">NOS STORES DE VÉRANDA</button>
+    <button class="boutton-rouge">SUPPORT TECHNIQUE</button>
 </body>
 </html>
