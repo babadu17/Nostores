@@ -1,3 +1,3 @@
-function retour() {
-    window.history.back();
+function Sores-bannes() {
+    window.location.href = '/Sores-bannes';
 }
