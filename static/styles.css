@@ -84,4 +84,5 @@ body {
 .container-strores-bannes {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
