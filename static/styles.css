@@ -61,7 +61,7 @@ body {
     flex-direction: column;
     align-items: auto;
     transition: transform 0.3s ease;
-    width: 130px;
+    width: 170px;
     text-align: center;
 }
 
