@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commandes nostores</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='photo/logo.png') }}">
+</head>
+<body>
+    <img src="{{ url_for('static', filename='photo/logo_blanc.png') }}" class="logo">
+    <h1>Store SAVANNA</h1>
+    <div class = "caracteristiques">
+        <h2>Dimentions</h2>
+        <ul>
+            <li>Largeur max : 6000 mm</li>
+            <li>Projection maximale : 3600 mm</li>
+        </ul>
+        <ul>
+            <p>->Avancée de 2100mm, largeur mini : 2470mm</p>
+            <p>->Avancée de 2600mm, largeur mini : 2970mm</p>
+            <p>->Avancée de 3100mm, largeur mini : 3970mm</p>
+        </ul>
+    </div>
+</body>
+</html>
