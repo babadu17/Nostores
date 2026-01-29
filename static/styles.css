@@ -81,3 +81,21 @@ body {
     flex-wrap: wrap;
     gap: 30px;
 }
+
+h1 {
+    color: rgb(255, 242, 82);
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.caracteristiques h2 {
+    color: white;
+    margin-left: 20px;
+ }
+
+ .caracteristiques ul {
+    margin-top: 20px;
+    margin-left: 40px;
+    color: white;
+ }
