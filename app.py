@@ -12,6 +12,10 @@ def index():
 def stores_bannes():
   return render_template("Stores-bannes.html")
 
+@app.route('/Savanna')
+def savanna():
+  return render_template("Savanna.html")
+  
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     app.run(debug=False, host='0.0.0.0', port=port)
