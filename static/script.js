@@ -1,3 +1,3 @@
-function stores_bannes() {
-    window.location.href = '/Stores-bannes';
+function stores_bannes(lien) {
+    window.location.href = lien;
 }
