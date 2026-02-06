@@ -60,7 +60,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: auto;
-    width: 160px;
     text-align: center;
 }
 .stores-bannes img {
