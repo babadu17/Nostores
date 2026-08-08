@@ -1,0 +1,15 @@
+{
+  "name": "Nostores",
+  "short_name": "Nostores",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/icon-carre.png",
+      "sizes": "700x700",
+      "type": "image/png"
+    }
+  ]
+}
