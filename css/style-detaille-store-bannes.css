@@ -20,6 +20,7 @@ h1 {
     width: 120px;
     height: auto;
     border-radius: 10px;
+    color: white;
 }
 
 li {
@@ -30,7 +31,7 @@ li {
 .container_coloris {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 40px;
     margin-left: 120px;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -58,4 +59,24 @@ li {
     gap: 10px;
     justify-content: center;
     margin-top: 40px;
+}
+
+.img_installation_solo img {
+    width: 400px;
+    height: 300px;
+}
+
+.manoeuvre-avec-text {
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.manoeuvre-avec-text p {
+    margin-left: 50px;
+}
+
+.manoeuvre-avec-text img {
+    height: 60px;
+    width: auto;
 }
