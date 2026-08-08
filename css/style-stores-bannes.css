@@ -1,0 +1,26 @@
+.stores-bannes {
+    cursor: pointer;
+    text-align: center;
+}
+
+.stores-bannes img {
+    width: 150px;
+    height: 103px;
+    border-radius: 20px;
+}
+
+.stores-bannes p {
+    color: rgb(255, 242, 82);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container-strores-bannes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 40px;
+}
+

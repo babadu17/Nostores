@@ -1,0 +1,35 @@
+.logo {
+    width: auto;
+    height: 100px;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    background-color: black;
+}
+
+.boutton {
+    align-items: center;
+    border-width: 0px;
+    background-color: rgb(255, 242, 82);
+    border-radius: 18px;
+    height: 38px;
+    width: 339px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 15px;  
+    font-weight: 600;
+    color: #000000;
+    cursor: pointer;
+}
+
+.boutton:hover {
+    background-color: rgb(255, 246, 155);
+}
+
+.boutton:active {
+    color: #000000;
+}

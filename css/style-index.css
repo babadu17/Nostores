@@ -1,0 +1,22 @@
+.boutton-rouge {
+    align-items: center;
+    border-width: 0px;
+    background-color: rgb(255, 166, 134);
+    border-radius: 18px;
+    height: 38px;
+    width: 339px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 15px;  
+    font-weight: 600;
+    color: #000000;
+}
+
+.boutton-rouge:hover {
+    background-color: rgb(255, 189, 167);
+}
+
+.boutton-rouge:active {
+    color: #000000;
+}
