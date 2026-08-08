@@ -2,17 +2,16 @@ h1 {
     color: rgb(255, 242, 82);
     text-align: center;
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .caracteristiques h2 {
-    color: white;
-    margin-left: 20px;
+    color: #fff3ad;
+    margin: 30px;
 }
 
 .caracteristiques ul {
-    margin-top: 20px;
-    margin-left: 40px;
+    margin: 20px;
     color: white;
 }
 
@@ -25,9 +24,10 @@ h1 {
 }
 
 .manoeuvre {
-    margin-left: 60px;
-    width: 100px;
+    margin-left: 80px;
+    width: 120px;
     height: auto;
+    border-radius: 10px;
 }
 
 .Coloris {
